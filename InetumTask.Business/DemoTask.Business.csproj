@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Realm" Version="10.5.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InetumTask.DAL\DemoTask.DAL.csproj" />
+    <ProjectReference Include="..\InetumTask.DTO\DemoTask.Common.csproj" />
+  </ItemGroup>
+
+</Project>

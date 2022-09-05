@@ -1,0 +1,60 @@
+C:\Users\pc\source\repos\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.deps.json
+C:\Users\pc\source\repos\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.runtimeconfig.json
+C:\Users\pc\source\repos\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.runtimeconfig.dev.json
+C:\Users\pc\source\repos\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.dll
+C:\Users\pc\source\repos\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.pdb
+C:\Users\pc\source\repos\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.AssemblyInfo.cs
+C:\Users\pc\source\repos\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.dll
+C:\Users\pc\source\repos\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.pdb
+C:\Users\pc\source\repos\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.genruntimeconfig.cache
+D:\Inetum\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.csprojAssemblyReference.cache
+D:\Inetum\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.AssemblyInfoInputs.cache
+D:\Inetum\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.AssemblyInfo.cs
+D:\Inetum\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.csproj.CoreCompileInputs.cache
+D:\Inetum\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.deps.json
+D:\Inetum\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.runtimeconfig.json
+D:\Inetum\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.runtimeconfig.dev.json
+D:\Inetum\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.dll
+D:\Inetum\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.pdb
+D:\Inetum\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.dll
+D:\Inetum\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.pdb
+D:\Inetum\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.genruntimeconfig.cache
+E:\InetumBackEnd\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.deps.json
+E:\InetumBackEnd\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.runtimeconfig.json
+E:\InetumBackEnd\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.runtimeconfig.dev.json
+E:\InetumBackEnd\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.dll
+E:\InetumBackEnd\InetumTask\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.pdb
+E:\InetumBackEnd\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.csprojAssemblyReference.cache
+E:\InetumBackEnd\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.AssemblyInfoInputs.cache
+E:\InetumBackEnd\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.AssemblyInfo.cs
+E:\InetumBackEnd\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.csproj.CoreCompileInputs.cache
+E:\InetumBackEnd\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.dll
+E:\InetumBackEnd\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.pdb
+E:\InetumBackEnd\InetumTask\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.genruntimeconfig.cache
+D:\Inetum\InetumBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.deps.json
+D:\Inetum\InetumBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.runtimeconfig.json
+D:\Inetum\InetumBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.runtimeconfig.dev.json
+D:\Inetum\InetumBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.dll
+D:\Inetum\InetumBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.pdb
+D:\Inetum\InetumBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.csprojAssemblyReference.cache
+D:\Inetum\InetumBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.AssemblyInfoInputs.cache
+D:\Inetum\InetumBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.AssemblyInfo.cs
+D:\Inetum\InetumBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.csproj.CoreCompileInputs.cache
+D:\Inetum\InetumBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.dll
+D:\Inetum\InetumBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.pdb
+D:\Inetum\InetumBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.genruntimeconfig.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.deps.json
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.runtimeconfig.json
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.runtimeconfig.dev.json
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.dll
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\InetumTask.DAL.pdb
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.csprojAssemblyReference.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.AssemblyInfoInputs.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.AssemblyInfo.cs
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.csproj.CoreCompileInputs.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.dll
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.pdb
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\InetumTask.DAL.genruntimeconfig.cache

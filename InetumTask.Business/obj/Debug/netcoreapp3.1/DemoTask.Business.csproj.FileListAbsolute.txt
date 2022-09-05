@@ -1,0 +1,15 @@
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\bin\Debug\netcoreapp3.1\DemoTask.Business.deps.json
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\bin\Debug\netcoreapp3.1\DemoTask.Business.dll
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\bin\Debug\netcoreapp3.1\DemoTask.Business.pdb
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\bin\Debug\netcoreapp3.1\DemoTask.DAL.dll
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\bin\Debug\netcoreapp3.1\DemoTask.DAL.pdb
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\obj\Debug\netcoreapp3.1\DemoTask.Business.csprojAssemblyReference.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\obj\Debug\netcoreapp3.1\DemoTask.Business.AssemblyInfoInputs.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\obj\Debug\netcoreapp3.1\DemoTask.Business.AssemblyInfo.cs
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\obj\Debug\netcoreapp3.1\DemoTask.Business.csproj.CoreCompileInputs.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\obj\Debug\netcoreapp3.1\DemoTask.Business.csproj.Fody.CopyLocal.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\obj\Debug\netcoreapp3.1\DemoTask.Business.csproj.CopyComplete
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\obj\Debug\netcoreapp3.1\DemoTask.Business.dll
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\obj\Debug\netcoreapp3.1\DemoTask.Business.pdb
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\bin\Debug\netcoreapp3.1\DemoTask.Common.dll
+D:\git test repos\DemoTaskBackEnd\InetumTask.Business\bin\Debug\netcoreapp3.1\DemoTask.Common.pdb

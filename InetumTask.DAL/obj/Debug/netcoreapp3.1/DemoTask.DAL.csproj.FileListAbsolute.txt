@@ -1,0 +1,12 @@
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\DemoTask.DAL.deps.json
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\DemoTask.DAL.runtimeconfig.json
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\DemoTask.DAL.runtimeconfig.dev.json
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\DemoTask.DAL.dll
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\bin\Debug\netcoreapp3.1\DemoTask.DAL.pdb
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\DemoTask.DAL.csprojAssemblyReference.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\DemoTask.DAL.AssemblyInfoInputs.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\DemoTask.DAL.AssemblyInfo.cs
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\DemoTask.DAL.csproj.CoreCompileInputs.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\DemoTask.DAL.dll
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\DemoTask.DAL.pdb
+D:\git test repos\DemoTaskBackEnd\InetumTask.DAL\obj\Debug\netcoreapp3.1\DemoTask.DAL.genruntimeconfig.cache

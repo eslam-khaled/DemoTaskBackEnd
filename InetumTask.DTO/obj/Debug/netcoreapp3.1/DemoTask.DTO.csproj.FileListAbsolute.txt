@@ -1,0 +1,9 @@
+D:\git test repos\DemoTaskBackEnd\InetumTask.DTO\bin\Debug\netcoreapp3.1\DemoTask.DTO.deps.json
+D:\git test repos\DemoTaskBackEnd\InetumTask.DTO\bin\Debug\netcoreapp3.1\DemoTask.DTO.dll
+D:\git test repos\DemoTaskBackEnd\InetumTask.DTO\bin\Debug\netcoreapp3.1\DemoTask.DTO.pdb
+D:\git test repos\DemoTaskBackEnd\InetumTask.DTO\obj\Debug\netcoreapp3.1\DemoTask.DTO.csprojAssemblyReference.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.DTO\obj\Debug\netcoreapp3.1\DemoTask.DTO.AssemblyInfoInputs.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.DTO\obj\Debug\netcoreapp3.1\DemoTask.DTO.AssemblyInfo.cs
+D:\git test repos\DemoTaskBackEnd\InetumTask.DTO\obj\Debug\netcoreapp3.1\DemoTask.DTO.csproj.CoreCompileInputs.cache
+D:\git test repos\DemoTaskBackEnd\InetumTask.DTO\obj\Debug\netcoreapp3.1\DemoTask.DTO.dll
+D:\git test repos\DemoTaskBackEnd\InetumTask.DTO\obj\Debug\netcoreapp3.1\DemoTask.DTO.pdb
