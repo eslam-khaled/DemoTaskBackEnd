@@ -2,11 +2,13 @@
 using DemoTask.Business.BusinessInterface;
 using DemoTask.DAL.BaseRepository;
 using DemoTask.DAL.Models;
+using DemoTask.DAL.UnitOfWork;
 using DemoTask.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace DemoTask.Business.BusinessImplementation
 {
@@ -14,32 +16,34 @@ namespace DemoTask.Business.BusinessImplementation
     {
         private readonly IBaseRepository<Product> _baseRepository;
         private readonly IMapper _mapper;
+        private readonly IUnitOfWork _UnitOfWork;
 
-        public ProductBusiness(IBaseRepository<Product> baseRepository, IMapper mapper)
+        public ProductBusiness(IBaseRepository<Product> baseRepository, IMapper mapper, IUnitOfWork UnitOfWork)
         {
             _mapper = mapper;
             _baseRepository = baseRepository;
+            _UnitOfWork = UnitOfWork;
         }
 
         /// <inheritdoc/>
-        public bool AddProductsList(IEnumerable<ProductDto> ProductsListDto)
+        public async Task<bool> AddProductsList(IEnumerable<ProductDto> ProductsListDto)
         {
             var mappedList = _mapper.Map<List<Product>>(ProductsListDto);
 
-            _baseRepository.AddList(mappedList);
+            await _UnitOfWork.Product.AddList(mappedList);
             return true;
         }
 
         /// <inheritdoc/>
-        public bool DeleteProductById(int Id)
+        public async Task<bool> DeleteProductById(int Id)
         {
             if (Id == 0)
             {
                 return false;
             }
-            var player = _baseRepository.GetWhere(x => x.Id == Id && x.IsDeleted == false).FirstOrDefault();
+            var player = _UnitOfWork.Product.GetWhere(x => x.Id == Id && x.IsDeleted == false).FirstOrDefault();
             player.IsDeleted = true;
-            _baseRepository.Update(player);
+            await _UnitOfWork.Product.Update(player);
             return true;
         }
 
@@ -53,12 +57,12 @@ namespace DemoTask.Business.BusinessImplementation
                     return false;
                 }
 
-                var playersList = _baseRepository.GetWhere(x => x.CategoryId == CategoryId && x.IsDeleted == false).ToList();
+                var playersList = _UnitOfWork.Product.GetWhere(x => x.CategoryId == CategoryId && x.IsDeleted == false).ToList();
 
                 foreach (var player in playersList)
                 {
                     player.IsDeleted = true;
-                    _baseRepository.Update(player);
+                    _UnitOfWork.Product.Update(player);
                 }
                 return true;
             }
@@ -73,7 +77,7 @@ namespace DemoTask.Business.BusinessImplementation
         /// <inheritdoc/>
         public IEnumerable<ProductDto> GetProductsListByCategoryId(int CategoryId)
         {
-            var PlayersList = _baseRepository.GetWhere(x => x.CategoryId == CategoryId && x.IsDeleted == false);
+            var PlayersList = _UnitOfWork.Product.GetWhere(x => x.CategoryId == CategoryId && x.IsDeleted == false);
 
             var mapped = _mapper.Map<List<ProductDto>>(PlayersList);
 

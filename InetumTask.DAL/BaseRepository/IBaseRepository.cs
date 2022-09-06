@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace DemoTask.DAL.BaseRepository
 {
     public interface IBaseRepository<T> where T : class
     {
-        T AddNew(T obj);
-        void AddList(IEnumerable<T> obj);
+        Task<T> AddNew(T obj);
+        Task<bool> AddList(IEnumerable<T> obj);
         IEnumerable<T> GetAll();
-        void FindById(int id);
-        void Delete(T id);
-        T GetById(int id);
-        void Update(T obj);
+        Task<T> FindById(int id);
+        Task<bool> Delete(T id);
+        Task<T> GetById(int id);
+        Task<bool> Update(T obj);
         IQueryable<T> GetWhere(Expression<Func<T, bool>> predicate);
     }
 }
