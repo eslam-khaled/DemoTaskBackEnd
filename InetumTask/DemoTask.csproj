@@ -23,9 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\InetumTask.Business\DemoTask.Business.csproj" />
-    <ProjectReference Include="..\InetumTask.DAL\DemoTask.DAL.csproj" />
-    <ProjectReference Include="..\InetumTask.DTO\DemoTask.Common.csproj" />
+    <ProjectReference Include="..\TaskDemo.Business\TaskDemo.Business.csproj" />
   </ItemGroup>
 
 </Project>

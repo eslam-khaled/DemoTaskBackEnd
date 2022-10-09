@@ -1,259 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git test repos\\DemoTaskBackEnd\\InetumTask\\DemoTask.csproj": {}
+    "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\InetumTask\\DemoTask.csproj": {}
   },
   "projects": {
-    "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.Business\\DemoTask.Business.csproj": {
+    "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\InetumTask\\DemoTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.Business\\DemoTask.Business.csproj",
-        "projectName": "DemoTask.Business",
-        "projectPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.Business\\DemoTask.Business.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.Business\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DAL\\DemoTask.DAL.csproj": {
-                "projectPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DAL\\DemoTask.DAL.csproj"
-              },
-              "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DTO\\DemoTask.Common.csproj": {
-                "projectPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DTO\\DemoTask.Common.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[10.1.1, )"
-            },
-            "Microsoft.AspNet.WebApi.Core": {
-              "target": "Package",
-              "version": "[5.2.7, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Abstractions": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Realm": {
-              "target": "Package",
-              "version": "[10.5.0, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[6.12.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DAL\\DemoTask.DAL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DAL\\DemoTask.DAL.csproj",
-        "projectName": "DemoTask.DAL",
-        "projectPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DAL\\DemoTask.DAL.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DAL\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[5.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.7, )"
-            },
-            "Microsoft.Extensions.Identity.Stores": {
-              "target": "Package",
-              "version": "[5.0.10, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DTO\\DemoTask.Common.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DTO\\DemoTask.Common.csproj",
-        "projectName": "DemoTask.Common",
-        "projectPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DTO\\DemoTask.Common.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DTO\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DAL\\DemoTask.DAL.csproj": {
-                "projectPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DAL\\DemoTask.DAL.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[10.1.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\git test repos\\DemoTaskBackEnd\\InetumTask\\DemoTask.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask\\DemoTask.csproj",
+        "projectUniqueName": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\InetumTask\\DemoTask.csproj",
         "projectName": "DemoTask",
-        "projectPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask\\DemoTask.csproj",
+        "projectPath": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\InetumTask\\DemoTask.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask\\obj\\",
+        "outputPath": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\InetumTask\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -273,14 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.Business\\DemoTask.Business.csproj": {
-                "projectPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.Business\\DemoTask.Business.csproj"
-              },
-              "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DAL\\DemoTask.DAL.csproj": {
-                "projectPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DAL\\DemoTask.DAL.csproj"
-              },
-              "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DTO\\DemoTask.Common.csproj": {
-                "projectPath": "D:\\git test repos\\DemoTaskBackEnd\\InetumTask.DTO\\DemoTask.Common.csproj"
+              "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.Business\\TaskDemo.Business.csproj": {
+                "projectPath": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.Business\\TaskDemo.Business.csproj"
               }
             }
           }
@@ -352,6 +104,228 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.Business\\TaskDemo.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.Business\\TaskDemo.Business.csproj",
+        "projectName": "TaskDemo.Business",
+        "projectPath": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.Business\\TaskDemo.Business.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.Common\\TaskDemo.Common.csproj": {
+                "projectPath": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.Common\\TaskDemo.Common.csproj"
+              },
+              "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.DAL\\TaskDemo.DAL.csproj": {
+                "projectPath": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.DAL\\TaskDemo.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.23.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.Common\\TaskDemo.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.Common\\TaskDemo.Common.csproj",
+        "projectName": "TaskDemo.Common",
+        "projectPath": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.Common\\TaskDemo.Common.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.DAL\\TaskDemo.DAL.csproj": {
+                "projectPath": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.DAL\\TaskDemo.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.DAL\\TaskDemo.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.DAL\\TaskDemo.DAL.csproj",
+        "projectName": "TaskDemo.DAL",
+        "projectPath": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.DAL\\TaskDemo.DAL.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\GitRepos\\DemoRepo\\DemoTask_BackEnd\\TaskDemo.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.29, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

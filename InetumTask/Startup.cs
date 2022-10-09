@@ -23,6 +23,7 @@ using DemoTask.Business.BusinessInterface;
 using DemoTask.Business.BusinessImplementation;
 using System.Threading.Tasks;
 using System;
+using DemoTask.DAL.UnitOfWork;
 
 namespace DemoTask
 {
@@ -57,9 +58,11 @@ namespace DemoTask
             services.AddScoped<IBaseRepository<LoginToken>, BaseRepository<LoginToken>>();
 
 
-            services.AddScoped<ICategoryBusiness, CategoryBusiness>();
-            services.AddScoped<IProductBusiness, ProductBusiness>();
+            services.AddScoped<ITeamBusiness, CategoryBusiness>();
+            services.AddScoped<IPlayerBusiness, ProductBusiness>();
             services.AddScoped<ILoginTokenBusiness, LoginTokenBusiness>();
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddSwaggerGen();
 
